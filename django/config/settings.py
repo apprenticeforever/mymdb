@@ -80,9 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mymdb',
-        # 'NAME': os.path.join(BASE_DIR, 'mydb'),
-        'USER': 'marcosdb',
-        'PASSWORD': 'm12071996',
+        'USER': '<meu usuario>',
+        'PASSWORD': '<minha senha>',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
@@ -110,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'UTC'
 
